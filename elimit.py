@@ -5,5 +5,6 @@ def elimit(number):
   while x < number:
     new = (1 + (1/x))^^x
     print("Current value of e: " + str(new))
-    x++
-  
+    x+=1
+
+elimit(750000)
